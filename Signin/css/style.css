@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(52, 152, 219) ;
+    text-align: center;
+
+}
+.signin{
+    width: 350px;
+    padding: 20px;
+    margin: 8% auto 0;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(236, 240, 241);
+   margin-top: 10px;
+
+}
+img{
+    width: 80px;
+}
+.signin h1{
+     color:rgb(52, 152, 219) ;
+     margin: 10px 0;
+     padding: 10px;
+     font-size: 40px;
+}
+.signin .input-signin{
+    width: 80%;
+    padding: 10px ;
+    margin: 10px 0px;
+    border-radius: 20px;
+    outline: none;
+   border:2px solid rgb(201, 201, 241);
+}
+.signin .input-signin:focus,
+.signin .input-signin:valid{
+      border: 2px solid rgb(52, 152, 219);
+}
+.signin .remember {
+ text-align: left;
+ padding-left: 20px;
+   margin-left: 6px;
+}
+.remember input{
+    margin-right:8px;
+}
+.signin-btn{
+    width: 80%;
+    
+    padding: 10px ;
+    margin: 25px 0px;
+    border-radius: 20px;
+    outline: none;
+   border-color: rgb(201, 201, 241);
+   background-color:rgb(52, 152, 219);
+   box-shadow: -4px 3px 8px rgb(52, 152, 219);
+}
+@media screen and (max-width: 550px){
+    .signin{
+        width: 80%;
+        border: none;
+    }
+    body{
+        background-color: rgb(236, 240, 241) ;
+    }
+}
+    
+
